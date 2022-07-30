@@ -35,3 +35,7 @@
 .p-cus-spcl {
     padding: 80px 100px;
 }
+
+.darker {
+    filter: brightness(50%);
+}
