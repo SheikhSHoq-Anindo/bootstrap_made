@@ -1,4 +1,4 @@
-.override {
+.pos-cus {
     bottom: 10%
 }
 
@@ -14,20 +14,20 @@
     width: fit-content;
 }
 
-.h-700 {
+.h-700px {
     height: 700px;
 }
 
 .w-200px {
-    width: 200px;
+    max-width: 200px;
 }
 
-.w-t {
+.w-736px {
 
     max-width: 734px;
 }
 
-.i-t {
+.img-cus {
     height: 100%;
     width: 100%;
 }
