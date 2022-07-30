@@ -1,0 +1,20 @@
+.override {
+    bottom: auto;
+    top: 40%;
+}
+
+.fs-cus {
+    font-size: 65px;
+}
+
+.w-cus {
+    width: 671px;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.h-700 {
+    height: 700px;
+}
