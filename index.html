@@ -24,7 +24,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-sm-0 fs-5">
+                    <ul class="navbar-nav mx-auto mb-2 mb-sm-0 fs-5 ">
                         <li class="nav-item">
                             <a class="nav-link px-4" aria-current="page" href="#">Home</a>
                         </li>
@@ -43,9 +43,7 @@
                         <li class="nav-item">
                             <a class="nav-link px-4" href="#">Register</a>
                         </li>
-
                     </ul>
-
                 </div>
                 <form class="d-flex" role="search">
                     <button class="btn btn-outline-success fs-4 fw-semibold text-info px-xl-5 px-2 py-1 border-info"
@@ -128,7 +126,7 @@
     <div class="container px-0 mt-5">
         <div class="row row-cols-1 row-cols-lg-2 g-2">
             <div class="col">
-                <div class="w-t bg-primary">
+                <div class="w-t">
                     <div class="card">
                         <div class="row g-0">
                             <div class="col-sm-12 col-md-3">
@@ -136,48 +134,10 @@
                             </div>
                             <div class="col-sm-12 col-md-9">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title fw-semibold">Card title</h5>
                                     <p class="card-text">This is a wider card with supporting text below as a natural
                                         lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="w-t bg-primary">
-                    <div class="card">
-                        <div class="row g-0">
-                            <div class="col-sm-12 col-md-3">
-                                <img src="images/course/course-1.png" class="img-fluid rounded-start i-t" alt="...">
-                            </div>
-                            <div class="col-sm-12 col-md-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="w-t bg-primary">
-                    <div class="card">
-                        <div class="row g-0">
-                            <div class="col-sm-12 col-md-3">
-                                <img src="images/course/course-1.png" class="img-fluid rounded-start i-t" alt="...">
-                            </div>
-                            <div class="col-sm-12 col-md-9">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <p class="card-text fw-semibold"><small class="text-primary">Price: 99$</small></p>
                                 </div>
                             </div>
                         </div>
@@ -220,11 +180,109 @@
             </div>
         </div>
     </div>
+    <!-- FAQ -->
+    <div class="container p-0">
+        <div class="container text-center mt-5">
+            <h3 class="fs-cus fw-bold">Frequently Asked Questions</h3>
+            <p class="fs-5">Below are some FAQs for the users convinience.</p>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What are the differences between flexbox and grid?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The basic difference between CSS Grid Layout and CSS Flexbox Layout is
+                        that flexbox was designed for layout in one dimension - either a row or a column. Grid was
+                        designed for two-dimensional layout - rows, and columns at the same time. The two specifications
+                        share some common features, however, and if you have already learned how to use flexbox, the
+                        similarities should help you get to grips with Grid.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        What are Semantic Elements?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A semantic element clearly describes its meaning to both the browser and
+                        the developer.<br>
+                        Examples of non-semantic elements:
+                        div and span - Tells nothing
+                        about its content.<br>
+                        Examples of semantic elements:
+                        form,
+                        table, and
+                        article - Clearly
+                        defines its
+                        content.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What is CSS Box Model?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">In CSS, the term "box model" is used when talking about design and
+                        layout.
 
+                        The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                        margins, borders, padding, and the actual content. The image below illustrates the box model:
+                        <img class="img-fluid"
+                            src="https://www.simplilearn.com/ice9/free_resources_article_thumb/CSS-Box-Model.png">
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading4">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                        What are the differences between Bootstrap CSS Framework and TailWind CSS Framework?
+                    </button>
+                </h2>
+                <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"></div>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    <!-- Footer -->
+    <div class="container px-0 py-5 mt-5 d-flex flex-column text-center text-white bg-dark">
+        <h4 class="fs-cus fw-bold">TrainEm</h4>
+        <p class="fs-5">#450 WE Office <br> Mainstreet City block Z<br>Mega City</p>
+        <p class="fs-5"><a> Privacy Policy </a>|<a> TOS </a></a></p>
+        <ul class="navbar-nav mx-auto mb-2 mb-sm-0 fs-5 d-flex flex-row">
+            <li class="nav-item">
+                <a class="nav-link px-4" href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4" href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4" href="#"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link px-4" href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c2bb2f99b6.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
